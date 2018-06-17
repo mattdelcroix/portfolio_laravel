@@ -1,0 +1,15 @@
+.fab{
+  color: #2c3e50;
+}
+footer .row{
+  height: 45px;
+}
+#div_brand{
+  display: table;
+  height: 45px;
+}
+#brand{
+  color: #2c3e50;
+  display:table-cell;
+ vertical-align:middle;
+}
