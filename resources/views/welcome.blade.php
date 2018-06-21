@@ -27,7 +27,8 @@
       <h5 class="my-0 mr-md-2 font-weight-normal">Matthieu Delcroix</h5>
       <nav>
         <a class="p-2 text-dark" href="/">Home</a>
-        <a class="p-2 text-dark" href="/photo">Portfolio</a>        
+        <a class="p-2 text-dark" href="/curriculum">Curriculum vitae</a>
+        <a class="p-2 text-dark" href="/photo">Portfolio</a>
       </nav>
     </div>
 

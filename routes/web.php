@@ -15,6 +15,10 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/curriculum', function () {
+    return view('curriculum.cv');
+});
+
 Route::get('getPhotoCategory/{category}', 'PhotoController@photoCategory');
 
 Auth::routes();
