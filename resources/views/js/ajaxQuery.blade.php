@@ -51,11 +51,11 @@ function AddViewerPhotos(photos){
 }
 
 //Add the onClick evenement on the category buttons
-$('.category').click(function(){
+$('.category img').click(function(){
   //Set the URL to get the data from this route : getPhotoCategory/{category}
   var url = document.location.href;
   var domain  = url.substring( 0 ,url.lastIndexOf( "/" ) );
-  var getPhotoCategory = domain + "/getPhotoCategory/" + this.innerHTML;
+  var getPhotoCategory = domain + "/getPhotoCategory/" + this.alt;
   console.log(getPhotoCategory);
   var photos;
 

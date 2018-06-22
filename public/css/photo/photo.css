@@ -1,3 +1,15 @@
+/*.categoryIcon{
+    background: url('http://dummyimage.com/100x100/000/fff');
+}
+.categoryIcon:hover {
+    background: url('http://dummyimage.com/100x100/eb00eb/fff');
+}*/
+
+.category img{
+  margin : 20px;
+  cursor: pointer;
+}
+
 .gridRow{
   min-height: 200px;
   margin: 20px;
@@ -57,23 +69,6 @@ Image grid
     box-sizing: border-box;
 }
 
-/* body {
-    background-color: #f1f1f1;
-    padding: 20px;
-    font-family: Arial;
-} */
-
-/* Center website */
-/*.main {
-    max-width: 1000px;
-    margin: auto;
-}*/
-
-/*
-.gridRow {
-    margin: 8px -16px;
-}*/
-
 /* Add padding BETWEEN each column (if you want) */
 .gridRow,
 .gridRow > .column {
@@ -132,56 +127,17 @@ footer .row{
  vertical-align:middle;
 }
 
-
-/*Set off the display for the viewers
-.photosIreland{
-  display: none;
-}
-.photosMountain{
-  display: none;
-}
-.photosSea{
-  display: none;
-}
-.photosLake{
-  display: none;
-}
-.photosNature{
-  display: none;
-}
-.photosDivers{
-  display: none;
-}*/
-
-
-
-
-/*slideshow
-body {
-  font-family: Arial;
-  margin: 0;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-img {
-  vertical-align: middle;
-  width: 80%;
-}*/
-
 /* Position the image container (needed to position the left and right arrows) */
 .container {
   position: relative;
   width: 80%;
 }
 
-/* Hide the images by default */
+/* Hide the images by default
 .mySlides {
   display: none;
   text-align: center;
-}
+}*/
 
 /* Add a pointer when hovering over the thumbnail images */
 .cursor {

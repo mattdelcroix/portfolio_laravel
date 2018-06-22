@@ -27,4 +27,5 @@
 @include('js.photo')
 @include('js.modal')
 @include('js.ajaxQuery')
+<script src="{{ asset('js/category/category.js') }}"></script>
 @endsection
