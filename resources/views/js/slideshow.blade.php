@@ -2,38 +2,34 @@
 //Load the caption for the viewer.
 function addSlidesCaption(){
   //If there are some photos, we can add the caption bar and the slides selectors
-  var slidesDiv = document.querySelector('.slides');
-  var slidesHaveNodes = slidesDiv.hasChildNodes() ? true : false;
+  var gridRow = document.querySelector('.gridRow');
+  var gridRowHaveNodes = gridRow.hasChildNodes() ? true : false;
 
   //If there are some photos, we can add the caption bar and the slides selectors.
   //Else, we add a message in header1 html element
-  if(!slidesHaveNodes || (slidesDiv.childNodes.length == 1 && slidesDiv.childNodes[0].nodeName == "#text")){
-    slidesDiv.innerHTML += "<h1>Sorry! No photos to display!</h1>";
-  } else {
-    slidesDiv.innerHTML += "<a class='prev' onclick='plusSlides(-1)'>❮</a>";
-    slidesDiv.innerHTML += "<a class='next' onclick='plusSlides(1)'>❯</a>";
-    slidesDiv.innerHTML += "<div class='caption-container'><p id='caption'></p></div>";
+  if(!gridRowHaveNodes || (gridRow.childNodes.length == 1 && gridRow.childNodes[0].nodeName == "#text")){
+    gridRow.innerHTML += "<h1>Sorry! No photos to display!</h1>";
   }
 }
 addSlidesCaption();
 
 //Functions to display the photo slideshow
 //Initialisation of the slideshow for the first photo
-var slideIndex = 1;
-showSlides(slideIndex);
+/*var slideIndex = 1;
+showSlides(slideIndex);*/
 
 //PlusSlide scopes the slideshow on the next or previous photo:
 //plusSlide(1) or plusSlide(-1)
-function plusSlides(n) {
+/*function plusSlides(n) {
   showSlides(slideIndex += n);
-}
+}*/
 /*
 function currentSlide(n) {
   showSlides(slideIndex = n);
 }*/
 
 //Display the photo in the slideShow
-function showSlides(n) {
+/*function showSlides(n) {
   var i;
   var slides = document.querySelectorAll(".mySlides");
   var captionText = document.getElementById("caption");
@@ -53,5 +49,5 @@ function showSlides(n) {
     //We initialize the caption.
     captionText.innerHTML = slides[slideIndex - 1].firstElementChild.nextElementSibling.alt;
   }
-}
+}*/
 </script>

@@ -43,9 +43,19 @@
   "Professionnal":
     [
       {
+      "title": "Feb - Apr 2018 : WWOOF Volunter",
+      "subtitle": "World Wide Opportunities on Organic Farm",
+      "content": "<ul><li>Farm in Connemara, Co.Galway</li><li>Farm in Ennis, Co.Clare</li><li>Practice of English</li></ul>"
+      },
+      {
+        "title": "Dec 2017 - Jan 2018 : IT Technician",
+        "subtitle": "Axione/Bouygues Energies Services, Bray (Ireland)",
+        "content": "<ul><li>Web Programming: Web tool to manage the tasks (HTML, CSS, JS, AJAX and MySQL)</li></ul>"
+      },
+      {
         "title": "2016 - 2017 : IT Technician",
         "subtitle": "Axione/Bouygues Energies Services, Pau (France)",
-        "content": "<ul><li>Web Programming: Applications Catalog (HTML, CSS, JS et AJAX/JSON)</li><li>Operating Technician : Integration and correction of data (Oracle, PostgreSQL, MySQL), Users requests management, Linux Administration (Automating the Taks, scripting Bash, Process Control), LDAP Administration (Users management)</li></ul>"
+        "content": "<ul><li>Web Programming: Applications Catalog (HTML, CSS, JS and AJAX/JSON)</li><li>Operating Technician : Integration and correction of data (Oracle, PostgreSQL, MySQL), Users requests management, Linux Administration (Automating the Taks, scripting Bash, Process Control), LDAP Administration (Users management)</li></ul>"
       },
       {
         "title": "2014 - 2016 : Student in IT Degree (Several student jobs)",

@@ -3,8 +3,9 @@
   <head>
     <meta charset="utf-8" />
     <title>@yield('title')</title>
-    <link href="{{ asset('css/bootstrap.min.css') }}" rel="stylesheet">
-    <link href="{{ asset('css/photo.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/photo/bootstrap.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/photo/photo.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/photo/modal.css') }}" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/css/select2.min.css" rel="stylesheet" />
     <link href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">

@@ -10,9 +10,11 @@
 
 <hr />
 
-<div class="container slides">
-    @include('partials.slides')
+<!--<div class="container slides">-->
+<div class="gridRow">
+    @include('partials.grid')
 </div>
+@include('partials.modal')
 
 <hr />
 
@@ -23,6 +25,6 @@
 
 @section('scripts')
 @include('js.photo')
-@include('js.slideshow')
+@include('js.modal')
 @include('js.ajaxQuery')
 @endsection

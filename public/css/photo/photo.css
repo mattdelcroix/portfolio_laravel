@@ -1,10 +1,30 @@
-.slides{
+.gridRow{
   min-height: 200px;
+  margin: 20px;
 }
 
-.slides h1{
+.gridRow h1{
   text-align: center;
-  margin-top: 10%;
+  margin-top: 5%;
+}
+
+body {
+    background-color: #f1f1f1;
+    font-family: Arial;
+}
+
+/* Center website */
+.main {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.content img{
+  cursor: pointer;
+}
+
+.content img:hover {
+  opacity: 0.7;
 }
 
 .navbar {
@@ -17,9 +37,9 @@
     margin-left: -50px !important;  /* 50% of your logo width */
     display: block;
 }
-.photo {
+/*.photo {
   width: 100%;
-}
+}*/
 #create_form{
   margin-top: 10%;
 }
@@ -29,6 +49,71 @@ button{
 .top-space{
   margin-top: 5%;
 }
+
+/**********************************************************/
+
+Image grid
+{
+    box-sizing: border-box;
+}
+
+/* body {
+    background-color: #f1f1f1;
+    padding: 20px;
+    font-family: Arial;
+} */
+
+/* Center website */
+/*.main {
+    max-width: 1000px;
+    margin: auto;
+}*/
+
+/*
+.gridRow {
+    margin: 8px -16px;
+}*/
+
+/* Add padding BETWEEN each column (if you want) */
+.gridRow,
+.gridRow > .column {
+    padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 25%;
+}
+
+/* Clear floats after rows */
+.gridRow:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Content */
+.content {
+    background-color: white;
+    padding: 10px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+    .column {
+        width: 50%;
+    }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
+/**********************************************************/
+
 
 /*Fab icon*/
 .fab{
@@ -48,7 +133,7 @@ footer .row{
 }
 
 
-/*Set off the display for the viewers*/
+/*Set off the display for the viewers
 .photosIreland{
   display: none;
 }
@@ -66,12 +151,12 @@ footer .row{
 }
 .photosDivers{
   display: none;
-}
+}*/
 
 
 
 
-//slideshow
+/*slideshow
 body {
   font-family: Arial;
   margin: 0;
@@ -84,7 +169,7 @@ body {
 img {
   vertical-align: middle;
   width: 80%;
-}
+}*/
 
 /* Position the image container (needed to position the left and right arrows) */
 .container {
