@@ -8,19 +8,21 @@
 
   @include('partials.categories')
 
-<hr />
+<hr class="separator" />
 
-<!--<div class="container slides">-->
-<div class="gridRow">
+<div class="container-fluid photoViewer">
+  <div class="gridRow">
     @include('partials.grid')
+  </div>
 </div>
 @include('partials.modal')
 
+<!-- Footer image "what I use";
 <hr />
 
 <div class="container-fluid">
   <img src="images/canon_700D.jpg" class="" style="width:100%;" />
-</div>
+</div>-->
 @endsection
 
 @section('scripts')
